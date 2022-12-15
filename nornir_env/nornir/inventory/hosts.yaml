@@ -1,0 +1,74 @@
+switch-1:
+  hostname: 172.16.77.11
+  username: admin
+  password: admin
+  platform: eos
+  groups:
+    - site_1
+  data:
+    interfaces:
+      - name: Et1
+        mode: access
+        access_vlan: 50
+      - name: Et2
+        mode: access
+        access_vlan: 51
+      - name: Et3
+        mode: access
+        access_vlan: 100
+      - name: Et4
+        mode: access
+        access_vlan: 200
+      - name: Et4
+        mode: access
+        access_vlan: 300
+
+switch-2:
+  hostname: 172.16.77.12
+  username: admin
+  password: admin
+  platform: eos
+  groups:
+    - site_2
+  data:
+    interfaces:
+      - name: Et1
+        mode: access
+        access_vlan: 60
+      - name: Et2
+        mode: access
+        access_vlan: 61
+      - name: Et3
+        mode: access
+        access_vlan: 100
+      - name: Et4
+        mode: access
+        access_vlan: 200
+      - name: Et4
+        mode: access
+        access_vlan: 300
+
+switch-3:
+  hostname: 172.16.77.13
+  username: admin
+  password: admin
+  platform: eos
+  groups:
+    - site_3
+  data:
+    interfaces:
+      - name: Et1
+        mode: access
+        access_vlan: 70
+      - name: Et2
+        mode: access
+        access_vlan: 71
+      - name: Et3
+        mode: access
+        access_vlan: 100
+      - name: Et4
+        mode: access
+        access_vlan: 200
+      - name: Et4
+        mode: access
+        access_vlan: 300

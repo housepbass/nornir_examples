@@ -1,0 +1,6 @@
+nornir 
+nornir-napalm 
+nornir-jinja2 
+nornir_utils 
+Jinja2 
+pyyaml

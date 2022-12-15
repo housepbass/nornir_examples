@@ -1,0 +1,39 @@
+global:
+  data:
+    standard_vlans:
+      - id: 100
+        name: wired_users
+      - id: 200
+        name: wireless_users
+      - id: 300
+        name: printers
+
+site_1: 
+  groups:
+    - global
+  data:
+    site_vlans:
+      - id: 50
+        name: ISP-1
+      - id: 51
+        name: ISP-2
+      
+site_2:
+  groups:
+    - global
+  data:
+    site_vlans:
+      - id: 60
+        name: ISP-1
+      - id: 61
+        name: ISP-2
+
+site_3:
+  groups:
+    - global
+  data:
+    site_vlans:
+      - id: 70
+        name: ISP-1
+      - id: 71
+        name: ISP-2
