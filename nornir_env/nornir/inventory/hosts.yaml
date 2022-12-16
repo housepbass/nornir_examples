@@ -16,12 +16,6 @@ switch-1:
       - name: Et3
         mode: access
         access_vlan: 100
-      - name: Et4
-        mode: access
-        access_vlan: 200
-      - name: Et4
-        mode: access
-        access_vlan: 300
 
 switch-2:
   hostname: 172.16.77.12
@@ -41,12 +35,6 @@ switch-2:
       - name: Et3
         mode: access
         access_vlan: 100
-      - name: Et4
-        mode: access
-        access_vlan: 200
-      - name: Et4
-        mode: access
-        access_vlan: 300
 
 switch-3:
   hostname: 172.16.77.13
@@ -66,9 +54,3 @@ switch-3:
       - name: Et3
         mode: access
         access_vlan: 100
-      - name: Et4
-        mode: access
-        access_vlan: 200
-      - name: Et4
-        mode: access
-        access_vlan: 300
